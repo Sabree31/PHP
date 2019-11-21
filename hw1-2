@@ -1,0 +1,107 @@
+<?php
+
+$a=10;
+$b=7;
+
+$sum=$a+$b;
+echo "$sum"."<br>";
+
+$sub=$a-$b;
+echo "$sub"."<br>";
+
+$mul=$a*$b;
+echo "$mul"."<br>";
+
+$div=$a/$b;
+echo "$div"."<br>";
+
+$rem=$a%$b;
+echo "$rem"."<br>";
+
+?>
+<?php
+$a=8;
+echo "Value is now $a"."<br>";
+echo "Add 2. Value is now ",$a+2, "<br>";
+$a=$a+2;
+echo "Subtract 4. Value is now ",$a-4."<br>";
+$a=$a-4;
+echo "Multiply by 5. Value is now ",$a*5, "<br>";
+$a=$a*5;
+echo "Divide by 3. Value is now ",$a/3, "<br>";
+$a=$a/3;
+echo "Increment value by one. Value is now ",$a+1, "<br>";
+$a=$a+1;
+echo "Decrement value by one. Value is now ",$a-1, "<br>";
+
+?>
+<?php
+ $a="Harry";
+ var_dump($a);
+ echo "<br>";
+ 
+ echo "$a";
+echo "<br>";
+
+ $b=28;
+ var_dump($b);
+ echo "<br>";
+
+$c = null;
+var_dump($c);
+
+?>
+
+<?php
+	
+	$around="around";
+
+	echo 'What goes '.$around. ', comes '.$around.'.'."<br>";
+	echo "What goes ".$around. ", comes ".$around."."."<br>";
+?>
+
+<?php
+ 
+$month=date('F', time());
+if($month=='August'){
+  echo "It's August, so it's really hot.\n";
+}else{
+  echo "Not August, so at least not in the peak of the heat.\n";
+}
+ 
+?>
+
+<?php
+for($i=0; $i<12; $i++){
+    echo "$i * $i = ". $i*$i ."<br>";
+}
+?>
+
+<?php
+echo "<table border =\"2\" style='border-collapse: collapse'>";
+	for ($r=0; $r<7;$r++) 
+	{ 
+		echo "<tr> \n";
+		for ($c=0; $c<7; $c++) 
+		{ 
+		   $ans = $c*$r;
+		   echo "<td style='width: 80'>$ans</td> \n";
+		}
+	  	echo "</tr>";
+	}
+	echo "</table>";
+?>
+
+<?php
+echo "Twinkle, Twinkle littile star"."<br>";
+
+$Twinkle=5;
+echo "$Twinkle"."<br>";
+
+$star=2;
+echo "$star"."<br>";
+
+$o=$Twinkle-$star;
+
+echo "$o"."<br>";
+?>
